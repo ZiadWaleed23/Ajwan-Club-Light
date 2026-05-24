@@ -49,7 +49,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-heading);
   font-weight: 700;
-  color: var(--text-dark);
+  color: #f0f0f0;
 }
 
 a {
@@ -766,4 +766,33 @@ ul {
   .nav-links {
     display: none; /* هتبقى مخفية وتظهر بالـ JS */
   }
+}
+
+
+/* إصلاح قائمة الموبايل */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none !important; /* مخفية بالديفولت */
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    left: 5%;
+    width: 90%;
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+    z-index: 999;
+  }
+
+  /* ده الكلاس اللي الـ JS بيضيفه */
+  .nav-links.open {
+    display: flex !important; 
+  }
+
+  /* تنسيق شكل الأيقونة لما تفتح */
+  .hamburger.open span:nth-child(1) { transform: rotate(45deg) translate(5px, 5px); }
+  .hamburger.open span:nth-child(2) { opacity: 0; }
+  .hamburger.open span:nth-child(3) { transform: rotate(-45deg) translate(7px, -7px); }
 }

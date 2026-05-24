@@ -49,6 +49,16 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-heading);
   font-weight: 700;
+  color: #252525;
+}
+.gym-feauture-h3 {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  color: #f0f0f0;
+}
+.gym-feauture-h4 {
+  font-family: var(--font-heading);
+  font-weight: 700;
   color: #f0f0f0;
 }
 
@@ -107,6 +117,7 @@ ul {
   font-size: 1.5rem;
   background: linear-gradient(45deg, var(--primary), var(--secondary));
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -197,7 +208,7 @@ ul {
   transform: translateY(-50%);
   max-width: 550px;
   z-index: 2;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(37, 99, 235, 0.3);
   backdrop-filter: blur(8px);
   padding: 40px;
   border-radius: 30px;

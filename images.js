@@ -33,7 +33,7 @@ const AJWAN_IMAGES = {
       subtitle: "اجعل مناسبتك لا تُنسى"
     },
     {
-      src: "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=1600&q=80",
+      src: "https://images.unsplash.com/photo-1556056504-5c7696c4c28d?auto=format&fit=crop&w=1200&q=80",
       alt: "ملاعب كرة القدم",
       title: "ملاعب كرة قدم احترافية",
       subtitle: "العب على أفضل الملاعب المجهزة"

@@ -25,18 +25,21 @@
       </button>
 
       <ul class="nav-links" id="navLinks">
-        <li><a href="#home" class="nav-link active" data-section="home">الرئيسية</a></li>
-        <li><a href="#pool" class="nav-link" data-section="pool">حمامات السباحة</a></li>
-        <li><a href="#halls" class="nav-link" data-section="halls">قاعات الأفراح</a></li>
-        <li><a href="#gym" class="nav-link" data-section="gym">الجيم</a></li>
-        <li><a href="#kids" class="nav-link" data-section="kids">كيدز ايريا</a></li>
-        <li><a href="#football" class="nav-link" data-section="football">كرة القدم</a></li>
-        <li><a href="#padel" class="nav-link" data-section="padel">بادل</a></li>
-        <li><a href="#contact" class="nav-link" data-section="contact">تواصل معنا</a></li>
+        <li><a href="#home"       class="nav-link active" data-section="home">الرئيسية</a></li>
+        <li><a href="#pool"       class="nav-link" data-section="pool">حمامات السباحة</a></li>
+        <li><a href="#halls"      class="nav-link" data-section="halls">قاعات الأفراح</a></li>
+        <li><a href="#gym"        class="nav-link" data-section="gym">الجيم</a></li>
+        <li><a href="#kids"       class="nav-link" data-section="kids">كيدز ايريا</a></li>
+        <li><a href="#football"   class="nav-link" data-section="football">كرة القدم</a></li>
+        <li><a href="#padel"      class="nav-link" data-section="padel">بادل</a></li>
+        <li><a href="#cafe"       class="nav-link" data-section="cafe">أركان</a></li>
+        <li><a href="#restaurant" class="nav-link" data-section="restaurant">مشوي</a></li>
+        <li><a href="#contact"    class="nav-link" data-section="contact">تواصل معنا</a></li>
       </ul>
     </div>
   </nav>
 
+  <!-- ===== HERO SLIDER ===== -->
   <section class="hero" id="home">
     <div class="slider-track" id="sliderTrack">
       <div class="slide active" style="background-image: url('https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=1600&q=80')">
@@ -85,10 +88,8 @@
         </div>
       </div>
     </div>
-
     <button class="slider-btn prev" id="sliderPrev">&#10095;</button>
     <button class="slider-btn next" id="sliderNext">&#10094;</button>
-
     <div class="slider-dots" id="sliderDots">
       <span class="dot active" data-index="0"></span>
       <span class="dot" data-index="1"></span>
@@ -98,15 +99,19 @@
     </div>
   </section>
 
+  <!-- ===== STRIP ===== -->
   <div class="about-strip">
     <div class="about-strip-inner">
       <span>🏊 سباحة</span><span>🏋️ جيم</span><span>⚽ كرة قدم</span>
       <span>🎾 بادل</span><span>🎉 قاعات أفراح</span><span>🧒 كيدز ايريا</span>
+      <span>☕ أركان كافيه</span><span>🔥 مشوي</span>
       <span>🏊 سباحة</span><span>🏋️ جيم</span><span>⚽ كرة قدم</span>
       <span>🎾 بادل</span><span>🎉 قاعات أفراح</span><span>🧒 كيدز ايريا</span>
+      <span>☕ أركان كافيه</span><span>🔥 مشوي</span>
     </div>
   </div>
 
+  <!-- ===== POOL ===== -->
   <section class="section" id="pool">
     <div class="section-inner">
       <div class="section-header">
@@ -143,6 +148,7 @@
     </div>
   </section>
 
+  <!-- ===== HALLS ===== -->
   <section class="section section-dark" id="halls">
     <div class="section-inner">
       <div class="section-header">
@@ -181,9 +187,9 @@
             <h3>خدمات المناسبات</h3>
             <p>فريق متكامل من المتخصصين لتنظيم حفلك من الألف إلى الياء</p>
             <ul class="feature-list">
-              <li>✦ تنسيق ديكور</li>
+              <li>✦ تنسيق زهور وديكور</li>
               <li>✦ تصوير احترافي</li>
-              <li>✦ فريق خدمة متخصص</li>
+              <li>✦ موسيقى وترفيه</li>
             </ul>
           </div>
         </div>
@@ -191,23 +197,24 @@
     </div>
   </section>
 
+  <!-- ===== GYM ===== -->
   <section class="section" id="gym">
     <div class="section-inner">
       <div class="section-header">
         <div class="section-icon">🏋️</div>
         <h2 class="section-title">الجيم</h2>
-        <p class="section-sub">جهّز جسمك على أحدث الأجهزة الرياضية مع أفضل المدربين المتخصصين</p>
+        <p class="section-sub">صالة رياضية مجهزة بأحدث المعدات العالمية لتحقيق أهدافك</p>
       </div>
-      <div class="gym-layout reveal">
-        <div class="gym-feature-big" style="background-image:url('https://images.unsplash.com/photo-1571902943202-507ec2618e8f?w=900&q=80')">
+      <div class="gym-layout">
+        <div class="gym-feature-big reveal" style="background-image:url('https://images.unsplash.com/photo-1571902943202-507ec2618e8f?w=900&q=80')">
           <div class="gym-overlay">
-            <h3 class="gym-feauture-h3">صالة رياضية متكاملة</h3>
-            <p>أكثر من 30 جهاز رياضي حديث</p>
+            <h3 class="gym-feauture-h3">معدات عالمية</h3>
+            <p style="color:#e2e8f0">أجهزة كارديو ومقاومة من أفضل العلامات العالمية</p>
           </div>
         </div>
-        <div class="gym-features-side">
+        <div class="gym-small-cards">
           <div class="gym-small-card reveal" style="background-image:url('https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=500&q=80')">
-            <div class="gym-overlay"><h4 class="gym-feauture-h4">أجهزة كارديو</h4></div>
+            <div class="gym-overlay"><h4 class="gym-feauture-h4">كارديو زون</h4></div>
           </div>
           <div class="gym-small-card reveal" style="background-image:url('https://images.unsplash.com/photo-1540497077202-7c8a3999166f?w=500&q=80')">
             <div class="gym-overlay"><h4 class="gym-feauture-h4">أوزان حرة</h4></div>
@@ -223,6 +230,7 @@
     </div>
   </section>
 
+  <!-- ===== KIDS ===== -->
   <section class="section kids-section" id="kids">
     <div class="kids-bg-decor"></div>
     <div class="section-inner">
@@ -237,23 +245,21 @@
           <h3>منطقة اللعب الحر</h3>
           <p>ألعاب متنوعة وآمنة للأطفال من 2 إلى 12 سنة في بيئة مراقبة</p>
         </div>
-
         <div class="kids-card reveal">
           <div class="kids-emoji">🎂</div>
           <h3>حفلات أعياد ميلاد</h3>
           <p>نظم حفلة عيد ميلاد لا تُنسى لطفلك بكل التفاصيل الجميلة</p>
         </div>
-
         <div class="kids-card reveal">
           <div class="kids-emoji">👮</div>
           <h3>أمان تام</h3>
           <p>مشرفون متخصصون وكاميرات مراقبة ومعدات آمنة معتمدة</p>
         </div>
-
       </div>
     </div>
   </section>
 
+  <!-- ===== FOOTBALL ===== -->
   <section class="section section-dark" id="football">
     <div class="section-inner">
       <div class="section-header">
@@ -283,12 +289,13 @@
     </div>
   </section>
 
+  <!-- ===== PADEL ===== -->
   <section class="section" id="padel">
     <div class="section-inner">
       <div class="section-header">
         <div class="section-icon">🎾</div>
         <h2 class="section-title">ملاعب البادل</h2>
-        <p class="section-sub">جرب الرياضة الأكثر انتشاراً في العالم على ملاعبنا </p>
+        <p class="section-sub">جرب الرياضة الأكثر انتشاراً في العالم على ملاعبنا</p>
       </div>
       <div class="padel-layout">
         <div class="padel-imgs reveal">
@@ -314,6 +321,117 @@
     </div>
   </section>
 
+  <!-- ===== CAFE ARKAN ===== -->
+  <section class="section section-dark" id="cafe">
+    <div class="section-inner">
+      <div class="section-header">
+        <div class="section-icon">☕</div>
+        <h2 class="section-title">كافيه Arkan – أركان</h2>
+        <p class="section-sub">ركنك المفضل للراحة والاسترخاء – قهوة مختصة وأجواء دافئة تجمع الأصدقاء</p>
+      </div>
+
+      <div class="cafe-hero reveal">
+        <div class="cafe-hero-bg" style="background-image:url('https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=1400&q=80')"></div>
+        <div class="cafe-hero-overlay">
+          <div class="cafe-hero-text">
+            <span class="cafe-badge">Arkan Café ☕</span>
+            <h3>حيث يبدأ يومك<br/><em>بنكهة مختلفة</em></h3>
+            <p>باريستا محترف · مكونات طبيعية · أجواء استثنائية</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="cards-grid">
+        <div class="card reveal">
+          <div class="card-img" style="background-image:url('https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=700&q=80')"></div>
+          <div class="card-body">
+            <span class="cafe-tag">☕ القهوة المختصة</span>
+            <h3>إسبريسو وقهوة باردة</h3>
+            <p>حبوب قهوة مختارة بعناية تُحضَّر على يد باريستا محترف – من الإسبريسو الكلاسيكي للكولد برو المثلج</p>
+          </div>
+        </div>
+        <div class="card reveal">
+          <div class="card-img" style="background-image:url('https://images.unsplash.com/photo-1576424453792-6f5a22a73d08?q=80&w=464&auto=format&fit=crop')"></div>
+          <div class="card-body">
+            <span class="cafe-tag">🍵 مشروبات ساخنة</span>
+            <h3>شاي وهوت شوكليت</h3>
+            <p>تشكيلة متنوعة من الشاي المنكّه والهوت شوكليت الكريمي لتدفئة أمسياتك المميزة</p>
+          </div>
+        </div>
+        <div class="card reveal">
+          <div class="card-img" style="background-image:url('https://images.unsplash.com/photo-1544145945-f90425340c7e?w=700&q=80')"></div>
+          <div class="card-body">
+            <span class="cafe-tag">🧃 مشروبات باردة</span>
+            <h3>عصائر وسموذي طازج</h3>
+            <p>مشروبات منعشة بالفواكه الطبيعية الطازجة – خيار صحي ولذيذ في آنٍ واحد</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="cafe-perks">
+        <div class="cafe-perk reveal"><div class="cafe-perk-icon">🌿</div><h4>مكونات طبيعية 100%</h4></div>
+        <div class="cafe-perk reveal"><div class="cafe-perk-icon">👨‍🍳</div><h4>باريستا محترف</h4></div>
+        <div class="cafe-perk reveal"><div class="cafe-perk-icon">🛋️</div><h4>جلسات داخلية وخارجية</h4></div>
+        <div class="cafe-perk reveal"><div class="cafe-perk-icon">⏰</div><h4>متاح طوال اليوم</h4></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== RESTAURANT MASHWI ===== -->
+  <section class="section" id="restaurant">
+    <div class="section-inner">
+      <div class="section-header">
+        <div class="section-icon">🔥</div>
+        <h2 class="section-title">مطعم مشوي</h2>
+        <p class="section-sub">تجربة مشويات فاخرة في قلب النادي – لحوم طازجة على الفحم بأيدي طهاة محترفين</p>
+      </div>
+
+      <div class="resto-layout">
+        <div class="resto-imgs reveal">
+          <div class="resto-big" style="background-image:url('https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=900&q=80')"></div>
+          <div class="resto-small-group">
+            <div class="resto-small" style="background-image:url('https://images.unsplash.com/photo-1544025162-d76694265947?w=500&q=80')"></div>
+            <div class="resto-small" style="background-image:url('https://images.unsplash.com/photo-1529193591184-b1d58069ecdd?w=500&q=80')"></div>
+          </div>
+        </div>
+        <div class="resto-info reveal">
+          <span class="resto-badge">Mashwi Restaurant 🔥</span>
+          <h3>طعم الفحم الأصيل</h3>
+          <p>مطعم مشوي يقدم أشهى المشويات من كفتة ودجاج مع أطباق جانبية متنوعة في أجواء رياضية مميزة داخل النادي.</p>
+          <div class="resto-menu">
+            <div class="resto-item">
+              <span class="resto-item-icon">🥩</span>
+              <div><h4>مشويات اللحم</h4><p>كفتة · سيخ شيش · ريش مشوي</p></div>
+            </div>
+            <div class="resto-item">
+              <span class="resto-item-icon">🍗</span>
+              <div><h4>مشويات الدجاج</h4><p>دجاج مشوي · فراخ بالأعشاب · ستيك دجاج</p></div>
+            </div>
+            <div class="resto-item">
+              <span class="resto-item-icon">🥗</span>
+              <div><h4>الأطباق الجانبية</h4><p>سلطة طازجة · أرز · خبز بلدي مشوي</p></div>
+            </div>
+            <div class="resto-item">
+              <span class="resto-item-icon">🥤</span>
+              <div><h4>المشروبات</h4><p>عصائر طبيعية · مشروبات باردة ساقعة</p></div>
+            </div>
+          </div>
+          <a href="#contact" class="hero-btn">احجز طاولتك الآن</a>
+        </div>
+      </div>
+
+      <div class="field-features" style="margin-top:40px">
+        <div class="ff reveal">🔥 على الفحم الطبيعي</div>
+        <div class="ff reveal">🥩 لحوم طازجة يومياً</div>
+        <div class="ff reveal">👨‍🍳 طهاة محترفون</div>
+        <div class="ff reveal">🌿 مكونات طبيعية</div>
+        <div class="ff reveal">🪑 جلسات داخلية وخارجية</div>
+        <div class="ff reveal">📱 حجز مسبق إلكتروني</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
   <section class="section contact-section" id="contact">
     <div class="section-inner">
       <div class="section-header">
@@ -323,30 +441,20 @@
       </div>
       <div class="contact-layout">
         <div class="map-container reveal">
-       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d574.0492412257051!2d31.07929788413723!3d31.556691030839513!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14f73d0050112f8f%3A0xb15d7419d43137dc!2z2YbYp9iv2Yog2KfYrNmI2KfZhg!5e1!3m2!1sen!2seg!4v1779543162619!5m2!1sen!2seg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d574.0492412257051!2d31.07929788413723!3d31.556691030839513!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14f73d0050112f8f%3A0xb15d7419d43137dc!2z2YbYp9iv2Yog2KfYrNmI2KfZhg!5e1!3m2!1sen!2seg!4v1779543162619!5m2!1sen!2seg" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
-
         <div class="contact-info reveal">
           <div class="info-card">
             <div class="info-icon">📍</div>
-            <div>
-              <h4>العنوان</h4>
-              <p>نادي أجوان الرياضي، بلطيم، كفر الشيخ، مصر</p>
-            </div>
+            <div><h4>العنوان</h4><p>نادي أجوان الرياضي، بلطيم، كفر الشيخ، مصر</p></div>
           </div>
           <div class="info-card">
             <div class="info-icon">📞</div>
-            <div>
-              <h4>رقم الهاتف</h4>
-              <p>010 22260400</p>
-            </div>
+            <div><h4>رقم الهاتف</h4><p>010 22260400</p></div>
           </div>
           <div class="info-card">
             <div class="info-icon">🕐</div>
-            <div>
-              <h4>مواعيد العمل</h4>
-              <p>السبت – الخميس: 7 ص – 11 م<br/>الجمعة: 1 م – 11 م</p>
-            </div>
+            <div><h4>مواعيد العمل</h4><p>السبت – الخميس: 7 ص – 11 م<br/>الجمعة: 1 م – 11 م</p></div>
           </div>
           <div class="info-card">
             <div class="info-icon">📱</div>
@@ -355,7 +463,7 @@
               <div class="social-links">
                 <a href="https://www.facebook.com/ajwansportsclubbaltim" class="social-btn facebook">Facebook</a>
                 <a href="https://www.instagram.com/ajwansportsclubbaltim" class="social-btn instagram">Instagram</a>
-                <a href="https://wa.me/010 22260400" class="social-btn whatsapp">WhatsApp</a>
+                <a href="https://wa.me/01022260400" class="social-btn whatsapp">WhatsApp</a>
               </div>
             </div>
           </div>
@@ -364,6 +472,7 @@
     </div>
   </section>
 
+  <!-- ===== FOOTER ===== -->
   <footer class="footer">
     <div class="footer-inner">
       <div class="footer-logo">
@@ -380,6 +489,8 @@
         <a href="#kids">كيدز ايريا</a>
         <a href="#football">كرة القدم</a>
         <a href="#padel">بادل</a>
+        <a href="#cafe">أركان كافيه</a>
+        <a href="#restaurant">مشوي</a>
       </div>
       <p class="footer-copy">© 2026 نادي أجوان الرياضي – جميع الحقوق محفوظة</p>
     </div>
